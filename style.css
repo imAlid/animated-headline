@@ -1,0 +1,69 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;400;700&family=Pixelify+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#000000a1, #00000092),
+    url(./20376038_1889948674660121_959384493009489476_n.jpg) no-repeat center /
+      cover;
+
+  color: #fff;
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  max-width: 1080px;
+  margin: auto;
+}
+.header-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header-text-box h3 {
+  font-size: 55px;
+}
+h1 span {
+  font-size: 45px;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+.header .particles-js-canvas-el {
+  position: absolute;
+}
+.social-icon li {
+  list-style-type: none;
+  display: inline-block;
+}
+.header-text-box .ah-headline.clip .ah-words-wrapper::after {
+  background-color: #fff;
+  top: 18px;
+  height: 65%;
+}
+.ah-words-wrapper {
+  color: #e7d5d5;
+  text-shadow: 0 0 3px #e7d5d5, 0 0 5px #000000;
+}
+.social-icon {
+  font-size: 40px;
+  margin: 25px 0;
+}
+.social-icon ul li {
+  margin: 0 20px;
+}
+.social-icon ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.social-icon ul li a:hover {
+  color: #e7d5d5;
+  text-shadow: 0 0 3px #e7d5d5, 0 0 5px #000000;
+}
